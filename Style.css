@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-image: url('image/s.jpg');
+ background-size: cover;
+}
+#reset{
+  background-color: #0096C7;
+}
+#start{
+  background-color: #40916C;
+}
+#stop{
+  background-color: #B21E35;
+}
+button{
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  margin: 21px;
+}
+#minutes{
+color: black;
+  margin-left: 5px;
+  font-family: 'Seven Segment', sans-serif;
+  font-size: 55px;
+}
+#seconds{
+color: black;
+  font-family: 'Seven Segment', sans-serif;
+  font-size: 55px;
+}
+#tens{
+color: black;
+  font-family: 'Seven Segment', sans-serif;
+  font-size: 55px;
+  margin-left: 5px;
+}
+.dots{
+  font-size: 55px;
+color: black;
+}
+.display{
+  font-weight: 700;
+  color: black;
+  position: relative;
+  left: 1px;
+  background-color: #CAF0F899;
+  border: solid 3px #03045E;
+  padding-left: 5px;
+  margin: 2px;
+  border-radius: 15px;
+}
+#Stopwatch{
+  background-color: rgba(255, 255, 255,0.4);
+  border-radius: 15px;
+  border: solid 3px #03045E;
+  box-shadow: 12px 12px 25px #0096C7,-7px -7px 25px #0096C7;
+  padding: 15px;
+}
