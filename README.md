@@ -1,2 +1,2 @@
-# Stopwatch
-⏱️ Stop Watch using HTML, CSS &amp; JavaScript
+## Project Preview
+![App Screenshot](screenshots/preview.png)
