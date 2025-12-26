@@ -12,7 +12,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
- background-image: url('image/s.jpg');
+ background-image: url('s.jpg');
  background-size: cover;
 }
 #reset{
